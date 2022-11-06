@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+/* -------------------------------------- */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  gap: 10rem;
+  place-items: center;
+  padding: 1px 1px 12rem 1rem;
+}
+
+/* ---------------------------------------- */
+.registration {
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 400px;
+  padding: 1rem 1rem 1rem 3rem;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.inp-wrap {
+  width: 280px;
+  text-align: start;
+}
+
+.reg-inp {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.user {
+  margin-top: 4rem;
+}
+
+.bt {
+  text-align: end;
+  margin-top: 30px;
+}
+button {
+  border: none;
+  font-size: 18px;
+
+  outline: none;
+  border-radius: 20px;
+  margin: 0 10px;
+  padding: 9px 13px;
+  border: transparent;
+}
+
+button:active {
+  transform: translateY(3px);
+}
+
+/* ------------------------------------------- */
+.login_container {
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 400px;
+  padding: 1rem 1rem 1rem 3rem;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.login_inp {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 18px;
+  margin-top: 4rem;
+}
